@@ -1,0 +1,186 @@
+/*  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Fonts */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Quattrocento Sans', sans-serif !important;
+}
+
+body {
+	font-family: 'Oswald', sans-serif !important;
+	font-size: 1.2em !important;
+}
+/*End of Fonts*/
+
+/*For Links*/
+a {
+    text-decoration: none; /* Removes the underline */
+    transition: font-size 0.3s; /* Adds a smooth transition effect */
+}
+
+a:hover {
+    font-size: 1.5em; /* Increases font size on hover */
+    font-weight: bold;
+}
+
+/*End of Links*/
+
+/* Colors for BG */
+.color-bg {
+	background-color: #000000 !important;
+}
+
+.color-bg-secondary {
+	background-color: #F7F7F7 !important;
+}
+/*End of Colors for BG*/
+
+/*Colors for fonts*/
+.color-font-par {
+	color: #000000 !important;
+}
+
+.color-font-head {
+	color: #294D61 !important;
+}
+/*End of Colors for Fonts*/
+
+/*Font Sizes*/
+.footer-font-size {
+	font-size: 0.8em !important;
+}
+/* End of Font Sizes */
+
+/*For resizing images*/
+.self_image {
+	width: 50%; /* or any other value you want */
+	height: auto;
+}
+
+.projects_image {
+	width: auto;
+	height: 20%;
+}
+
+.tools-img {
+	width: 100px;
+}
+
+.button-img {
+	width: 70px;
+}
+
+.nav-img {
+	width: 40px;
+}
+/* End of resizing images */
+
+/* For tools animation */
+.grayscale-img {
+  filter: grayscale(100%);
+  transition: filter 0.3s, transform 0.3s;
+}
+
+.grayscale-img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1); /* Increase size by 10% */
+}
+/* End for Tools Animation */
+
+/* container divisions */
+.full-container-divider {
+	height: 100vh;
+}
+/* End of container divisions */
+
+/* For Landing */
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.fading-text {
+    font-size: 6rem;
+    animation: fade 7s infinite;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* End of Landing */
+
+/*For navigations*/
+.sticky-div {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-text {
+	font-size: 1.2em;
+	color: #212529 !important;
+}
+
+.nav-bg {
+	background-color: #fffafa;
+}
+/*End of Navigations*/
+
+/*For Cards*/
+.card-width {
+	width: 22rem;
+}
+/*End of Cards*/
+
+/*Forms*/
+#form_button {
+	transition: filter 0.3s, transform 0.3s;
+}
+
+#form_button:hover {
+	transform: scale(1.1);
+	font-weight: bold;
+}
+/*End of Forms*/
+
+
+.bg-image-linear {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://wallpapers.com/images/hd/code-symbols-programming-hjbyni9117oaqbap.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
